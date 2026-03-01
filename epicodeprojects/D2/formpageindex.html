@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Formulario de Registro</title>
+<body>
+
+<div class="box1">
+    <div class="boxtext1"> <!--Contenitore izq para bienvenida 100%-->
+        <h2>Iscriviti e inizia ad ascoltare musica gratis</h2>
+            <span class="spanboxtext1">Registrati per creare playlist, seguire artisti e scoprire 
+            nuova musica in base ai tuoi gusti</span>
+            <div class="consiglio">
+                <span class="spanboxtex1"><strong>Consiglio:</strong> Usa una password di almeno 6 caratteri e seleziona i tuoi generi preferiti </span>
+            </div>
+
+
+    </div>
+    <form onsubmit="alert('form inviato')">
+<div class="boxinput"><!-- Contenitore para formulario de registro 100% -->
+        <h3>Registrati</h3>
+        <span>Inserisci i tuoi dati per creare il tuo account</span>
+    <div class="boxdata">
+        <div>
+            <span>Nome</span>
+            <input type="text" placeholder="Es.Paolo">
+        </div>
+        <div>
+            <span>Cognome</span>
+            <input type="text" placeholder="Es Fiorentini">
+        </div>
+        <div>
+            <span>Indirizzo email</span>
+            <input type="email" placeholder="name@example.com">
+        </div>
+        <div>
+            <span>Password</span>
+            <input type="password">
+        </div>
+        <div>
+            <span> Data di nascita</span>
+            <input type="date">
+        </div>
+        <div>
+            <span>Telefono </span>
+            <input type="number" placeholder="Ej 323245432">
+        </div>
+    </div>
+    
+
+    <div><span class="subtitle"><strong>Generi Musicali</strong></span></div>
+
+
+    <div class="generi">
+    
+    <div><input type="checkbox">Rock</div>
+    <div><input type="checkbox">Pop</div>
+    <div><input type="checkbox">Hip-Hop</div>
+    <div><input type="checkbox">Metal</div>
+    <div><input type="checkbox">Reggae</div>
+    <div><input type="checkbox">Regggaeton</div>
+    <div><input type="checkbox">Dance</div>
+    <div><input type="checkbox">Electronica</div>
+    
+
+</div>
+
+
+<div class="terms">
+    <label class="terms-row">
+    <input type="checkbox" name="termini">
+    Acetta i termini e condizioni
+    </label>
+</div>
+
+    <div class="actions">
+        <button onclick="alert"('Registrazione avvenuta con successo') type="submit">Registrati</button>
+    </div>  
+
+</div>
+</form>
+<footer>
+    <span class="footerpage"> Information</span>
+    <span class="footerpage"> Assistance</span>
+    <span class="footerpage"> Downloads</span>
+    <span class="footerpage"> Privacy</span>
+    <span class="footerpage"> Legal</span>
+</footer>
+</body>

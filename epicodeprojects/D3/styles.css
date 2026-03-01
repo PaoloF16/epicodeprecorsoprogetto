@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(201, 155, 87);
+    margin:10px;
+    padding: 10px;
+    gap: 10px;
+}
+h1{
+    color:bisque;
+    font-size: 6rem;
+    margin: 0;
+    text-shadow: 10px 10px 10px black;
+}
+h2{
+    color:bisque;
+    font-size: 3rem;
+    margin: 0;  
+    text-shadow: 10px 10px 10px black;
+
+}
+.autor{
+    color:bisque;
+    font-size: 30px;
+    text-shadow: 10px 10px 10px black;
+
+}
+.description{
+    background-color: white;
+    border: 3px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px black;
+    color:black;
+    font-size: 2rem;
+    text-align: left;
+    margin: 10px;
+    align-items: center;
+
+}
+.bottom-box{
+    display: flex;
+    flex-direction: column; /* pone el título arriba */
+    align-items: flex-start; /* alinea a la izquierda */
+    padding: 20px;
+    background-color: #f8f6f2;
+}
+
+.image{
+    position: relative;
+    width: 100%;
+    
+
+}
+.image img{
+    width: 100%;
+    display: block;
+    border: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+
+}
+.titlephoto{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+
+
+}
+.autor{
+    position:absolute;
+    font-size: 2rem;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+
+
+}
+.autor a{
+    color:white;
+    text-decoration: none;
+}
+.bottom-box {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: #e9e6e2; /* fondo suave elegante */
+}
+
+.titulo {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    color: #222;
+}
+.botones {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.buttonpage {
+    flex: 1; /* cada botón ocupa el mismo espacio */
+    text-align: center;
+    padding: 12px 0;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+    background-color: transparent;
+    border: 1px solid #cfcac3;
+    border-radius: 25px;
+    transition: all 0.25s ease;
+}
+
+.buttonpage:hover {
+    background-color: #b5a27a;
+    color: #ffffff;
+}
+

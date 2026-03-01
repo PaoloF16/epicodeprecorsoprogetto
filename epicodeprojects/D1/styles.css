@@ -1,0 +1,224 @@
+    body{
+        background-image: url("https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-52393.jpg?semt=ais_user_personalization&w=740&q=80");
+        background-size: cover;
+        background-position: center;
+        background-color: #39AFE6;
+        color: white;
+        display: fixed;
+        font-family: 'Montserrat' ,sans-serif;
+        letter-spacing: 0.5px;
+
+
+    }
+
+
+    /* divstyles */
+
+    #container{
+        width: 40%;
+        height: 80%;
+        box-shadow: 0 10px 30px black;
+        margin: 0 auto;
+        padding: 0 auto;
+        border: 5px solid rgb(70, 68, 68);
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+    .codeimage{
+        width: 120px;
+        height: auto;
+    }
+    h2{
+        font-size: 30px;
+        position: center;
+
+        margin: 0px;
+        padding: 0px;
+
+
+
+    }
+
+    h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        position: center;
+        margin: 30px;
+        padding: 10px;
+
+    }
+    li{
+        font-size: 20px;
+        margin: 20px;
+    }
+    .fotoprofile{
+        display:flex;
+        align-items: center;
+        gap: 15px;
+        margin: 0 auto;
+        top:8%;
+        left:50%;
+
+    }
+    .list-item{
+        font-size: 20px;
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:60px;
+        list-style: none;
+    }
+    .list-item2{
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:60px;
+        margin: 20px;
+        list-style: none;
+    }
+    .links{
+        font-size: 20px;
+        list-style: none;
+        display: inline-flex;
+        text-align: left;
+        gap: 20px;
+        padding: 20;
+        margin-right: 90px;
+    }
+    .skills{
+        font-size: 20px;
+        text-align: left;
+        list-style: none;
+        display: inline-flex;
+        text-align: left;
+        gap: 20px;
+        padding:20px;
+        margin-right: 10px;
+    }
+    .hardbox{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        justify-items: center;
+        margin-top:20px;
+        align-items: start;
+        gap: 30px;
+        margin-top: 20px;
+        width: 100%;
+
+    }
+    #namecontainer{
+        width: 100%;
+        border: 5px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-right: 0%;
+    } 
+    .listhard{
+        width: 150px;
+        height: 150px;;
+        object-fit: contain;
+        max-width: 180px;
+        font-size: 20px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 16px;
+        border: solid rgba(10, 10, 10, 0.35);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 14px;
+    }
+    .textspan{
+        font-size:30px;
+        text-align: center;
+
+    }
+    .textspan2{
+        font-size:20px;
+        margin: 20px;
+        text-align: center;
+
+    }
+    .skill-logo{
+        width: 100px;
+        height: auto;
+    }
+    .table{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contactbox{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+        flex-wrap: wrap;
+        font-size: 20px;
+        padding:20px;
+        margin: 0 auto;
+    }
+    .contactbox a{
+        color:white;
+        text-decoration: none;
+    }
+    .contactbox a:visited{
+        color:white;
+
+    }
+    .contactbox a:hover{
+        color: #39AFE6;
+        transition: 0.3s;
+
+    }
+
+    .contact-btn{
+        display: inline-flex;      
+        align-items: center;
+        gap: 8px;
+
+        padding: 10px 18px;
+        border-radius: 30px;
+
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+
+        width: auto;                 
+    }
+    .contact-btn img{
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        flex: 0 0 20px; 
+    }
+    .contact-icon{
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+
+    }
+    .contact-btn:hover{
+        transform: translateY(-2px);
+        background: rgba(255,255,255,0.14);
+
+    }
+    .contact-btn:visited{
+        color:white;
+    }

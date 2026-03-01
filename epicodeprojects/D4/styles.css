@@ -1,0 +1,214 @@
+
+body{
+font-family: "Montserrat", sans-serif;
+margin: 0;
+height: 100vh;
+  display: flex;             
+}
+
+/* SIDEBAR IZQUIERDA */
+#box-izq{
+width: 90px;               
+align-items: center;
+padding: 12px 6px;
+  gap: 14px;                  
+}
+
+/* BOTONES DEL SIDEBAR */
+.yt-btn{
+  width: 100%;
+  padding: 10px 0;            
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border-radius: 12px;
+}
+
+
+.yt-btn:hover{
+  background: #f2f2f2;
+}
+
+
+.yt-btn p{
+  margin: 0;
+  font-size: 11px;            
+  text-align: center;
+  line-height: 1.1;
+}
+
+
+.yt-btn ion-icon{
+  font-size: 22px;           
+}
+
+/* MAIN */
+#box-main{
+  flex: 1;                   
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px;
+}
+
+#searchbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+
+.logo{
+  width: 120px;             
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.search{
+  flex: 2;                     
+  display: flex;
+  align-items: center;
+  max-width: 700px;            
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 40px;         
+  background: #fff;
+}
+
+
+.search input{
+  flex: 1;
+  border: none;
+  padding: 12px 18px;
+  font-size: 14px;
+  outline: none;
+}
+
+
+.search-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  background: #f8f8f8;
+  border-left: 1px solid #ddd;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.search-icon:hover{
+  background: #ececec;
+}
+
+.search-icon ion-icon{
+  font-size: 20px;
+}
+
+
+.search:focus-within{
+  border-color: #1c62f3;
+  box-shadow: 0 0 0 2px rgba(28,98,243,0.2);
+}
+
+.userbox{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.user-icon,
+.mic-icon{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.user-icon ion-icon,
+.mic-icon ion-icon{
+  font-size: 22px;
+}
+
+.boxbody{
+  display: flex;
+  flex-wrap: wrap;     
+  gap: 20px;
+  margin-top: 10px;
+}
+
+
+.multimediabox{
+  flex: 1 1 300px;      
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.multimediabox:hover{
+  transform: translateY(-6px); 
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+
+.imagebox img{
+  transition: transform 0.3s ease;
+}
+
+.multimediabox:hover .imagebox img{
+  transform: scale(1.03); 
+}
+
+.imagebox{
+  width: 100%;
+}
+
+
+.imagebox img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+
+.descriptionbox{
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+
+.logoepicode-box{
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+
+.logoepicode-box img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+
+.textbox p{
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.textbox p strong{
+  font-size: 14px;
+}
