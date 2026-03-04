@@ -1,0 +1,51 @@
+header {
+  text-align: center;
+}
+main {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+main img {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+
+p.imagedescription {
+  text-align: center;
+}
+
+div p,
+em {
+  color: #107777;
+  text-decoration: underline;
+  margin: 10px;
+}
+p.titoli {
+  font-size: 1.2em;
+  color: rgb(181, 70, 14);
+  margin: 1em;
+}
+ul {
+  text-align: left;
+  margin: 0;
+  text-decoration: dotted;
+}
+
+p.list,
+div.method p {
+  color: black;
+  text-decoration: none;
+}
+.imagedescription {
+  color: rgb(153, 153, 153);
+}
+.box {
+  border-left: 0.1em solid rgb(181, 70, 14);
+  padding: px;
+}
+a {
+  color: #107777;
+}
